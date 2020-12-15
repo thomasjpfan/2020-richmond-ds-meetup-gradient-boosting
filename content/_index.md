@@ -939,6 +939,7 @@ catb = CatBoostClassifier()
 ## Future Work
 - Sparse Data
 - Improve performance when compared to other frameworks.
+- Better way to pass feature-aligned metadata to estimators in a pipeline.
 
 Learn more about [Histogram-Based Gradient Boosting](https://scikit-learn.org/stable/modules/ensemble.html#histogram-based-gradient-boosting)
 
