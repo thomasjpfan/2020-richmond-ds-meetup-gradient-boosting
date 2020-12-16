@@ -814,6 +814,8 @@ hist = HistGradientBoostingRegressor(categorical_features=categorical_mask)
 
 {{% /section %}}
 
+---
+
 {{% section %}}
 
 # Compared to Other Libraries
