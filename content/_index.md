@@ -418,7 +418,7 @@ default $\lambda$: `l2_regularization=0`
 # Trees = $h_m(X)$ 🎄
 
 $$
-f(X) = C + \eta\sum h_{m}(X)
+f(X) = C + \sum h_{m}(X)
 $$
 
 {{% /section %}}
