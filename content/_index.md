@@ -12,6 +12,30 @@ Thomas J. Fan
 
 ---
 
+# In Chat:
+
+{{% grid %}}
+
+{{% g 1 %}}
+## Beginner
+### **Type 1**
+
+{{% /g  %}}
+
+{{% g 1 %}}
+## Intermediate
+### **Type 2**
+{{% /g  %}}
+
+{{% g 1 %}}
+## Expert
+### **Type 3**
+{{% /g  %}}
+
+{{% /grid %}}
+
+---
+
 {{% section %}}
 
 # Supervised Learning 📖
