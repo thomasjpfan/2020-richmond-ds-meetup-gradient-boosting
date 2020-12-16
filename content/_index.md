@@ -464,7 +464,7 @@ $$
 
 
 ```python{|1}
-for i in range(data.shape[0]):
+for i in range(n_samples):
     left, right = 0, binning_thresholds.shape[0]
     while left < right:
         middle = left + (right - left - 1) // 2
@@ -481,7 +481,7 @@ for i in range(data.shape[0]):
 
 ```python{|2}
 # sklearn/ensemble/_hist_gradient_boosting/_binning.pyx
-for i in prange(data.shape[0], schedule='static', nogil=True):
+for i in prange(n_samples, schedule='static', nogil=True):
     left, right = 0, binning_thresholds.shape[0]
     while left < right:
         middle = left + (right - left - 1) // 2
