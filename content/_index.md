@@ -338,8 +338,6 @@ default $\lambda$: `l2_regularization=0`
         1. Evaluate split
 1. Pick best split
 
-where **n** is the number of features
-
 {{% /g %}}
 
 {{% g 1 %}}
@@ -394,7 +392,7 @@ where **n** is the number of features
 ## Overview
 
 1. For every feature
-    1. Build histogram _**O(n\_features)**_
+    1. Build histogram _**O(n)**_
     1. For every split point - _**O(n\_bins)**_
         1. Evaluate split
 1. Pick best split
