@@ -113,7 +113,7 @@ plot_partial_dependence(gbdt_cst, X, features=[0], line_kw={...}, ax=disp.axes_)
 </code></pre><figure><img src=images/poisson_hist.png height=450px></figure></section><section><h1 id=categorical-features-024>Categorical Features (0.24)</h1><p>From <a href=https://scikit-learn.org/dev/auto_examples/ensemble/plot_gradient_boosting_categorical.html#sphx-glr-auto-examples-ensemble-plot-gradient-boosting-categorical-py>categorical example</a></p><pre><code class=language-python>categorical_mask = ([True] * n_categorical_features +
                     [False] * n_numerical_features)
 hist = HistGradientBoostingRegressor(categorical_features=categorical_mask)
-</code></pre><figure><img src=images/categorical_features.png height=450px></figure></section><section data-shortcode-section><h1 id=compared-to-other-libraries>Compared to Other Libraries</h1></section><section><h1 id=xgboost>XGBoost</h1><pre><code class=language-bash>conda install -c conda-forge xgboost
+</code></pre><figure><img src=images/categorical_features.png height=450px></figure></section></section><section><section data-shortcode-section><h1 id=compared-to-other-libraries>Compared to Other Libraries</h1></section><section><h1 id=xgboost>XGBoost</h1><pre><code class=language-bash>conda install -c conda-forge xgboost
 </code></pre><pre><code class=language-python>from xgboost import XGBClassifier
 xgb = XGBClassifier()
 </code></pre><ul><li>GPU training</li><li>Networked parallel training</li><li>Sparse data</li></ul></section><section><h1 id=lightgbm>LightGBM</h1><pre><code class=language-bash>conda install -c conda-forge lightgbm
