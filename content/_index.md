@@ -916,6 +916,13 @@ catb = CatBoostClassifier()
 
 ---
 
+# Thank you Working on This 🎉
+
+- @hug_nicolas lead the development of this algorithm in sklearn
+- All the core developers for reviewing!
+
+---
+
 # Conclusion
 
 {{% grid middle %}}
