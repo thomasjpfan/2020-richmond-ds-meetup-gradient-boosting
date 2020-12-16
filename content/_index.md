@@ -70,7 +70,7 @@ $$
 
 {{% g 1 %}}
 
-## **Regression**
+## Regression
 
 - `least_squares`
 - `least_absolute_deviation`
@@ -80,7 +80,7 @@ $$
 
 {{% g 1 %}}
 
-## **Classificaiton**
+## Classificaiton
 
 - `binary_crossentropy`
 - `categorical_crossentropy`
@@ -520,18 +520,6 @@ for feature_idx in prange(n_features, schedule='static',
                           nogil=True):
     _subtract_histograms(feature_idx, ...)
 ```
-
----
-
-# OpenMP! Find best splits ✂️
-
-1. Bin data
-1. Make initial predictions (constant)
-1. Calculate gradients and hessians
-1. Grow Trees For Boosting
-    1. _**Find best splits**_ by building histograms
-    1. Add tree to predictors
-    1. Update gradients and hessians
 
 ---
 
