@@ -651,10 +651,6 @@ for i in prange(n_samples, schedule='static', nogil=True):
 - `learning_rate=0.1` ($\eta$)
 - `max_iter=100`
 
-$$
-f(X) = C + \eta\sum_{m}^{\text{max_iter}}h_{m}(X)
-$$
-
 ---
 
 # Hyper-parameters: Boosting 🏂
